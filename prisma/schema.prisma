@@ -15,7 +15,7 @@ model User {
     email String @unique
     username String
     age Int
-    quizCount Int
-    averageScore Float
+    quizCount Int @default(0)
+    averageScore Float @default(1)
 }
 

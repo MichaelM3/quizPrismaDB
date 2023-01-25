@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "quizCount" SET DEFAULT 0,
+ALTER COLUMN "averageScore" SET DEFAULT 1;
