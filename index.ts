@@ -12,7 +12,6 @@ app.use(express.json())
 
 app.post("/signup", async (req, res) => {
     const { username, email, age } = req.body
-
     const user = await prisma.user.create({
         data: {
             username,
